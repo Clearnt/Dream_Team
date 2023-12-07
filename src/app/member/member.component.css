@@ -1,0 +1,31 @@
+.member-pad {
+    width: 200px;
+    height: auto;
+    margin: 20px;
+    background-color: rgb(241, 248, 253);
+    border-radius: 10px;
+}
+
+.member-pad-info {
+    padding: 15px;
+}
+
+.member-pad-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 5px 0;
+}
+
+.member-pad-position {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(78, 121, 159);
+}
+
+.member-pad-img {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0 0 10px 10px;
+  }

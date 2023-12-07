@@ -1,0 +1,13 @@
+#title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: rgb(78, 121, 159);
+    margin: 10px 20px;
+}
+
+.members {    
+    margin: 20px 0 0 0;
+    display: flex;
+
+}
