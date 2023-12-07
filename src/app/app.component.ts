@@ -14,9 +14,9 @@ import { TeamMember } from './teammember';
     Our dream team
   </section>
   <section class="members">
+    <app-member [teamMember]="teamMemberIvan"></app-member>
     <app-member [teamMember]="teamMember"></app-member>
-    <app-member [teamMember]="teamMember"></app-member>
-    <app-member [teamMember]="teamMemberania"></app-member>
+    <app-member [teamMember]="teamMemberDania"></app-member>
     <app-member [teamMember]="teamMember"></app-member>
   </section>
   `
@@ -31,9 +31,15 @@ export class AppComponent {
     img: `${this.baseUrl}/test.jpg`
   };
 
-  teamMemberania: TeamMember = {
+  teamMemberDania: TeamMember = {
     name: 'Василенко Даня',
     position: 'Фронтенд розробник',
     img: `${this.baseUrl}/dania.jpg`
+  };
+
+  teamMemberIvan: TeamMember = {
+    name: 'Жук Іван',
+    position: 'Проджект менеджер',
+    img: `${this.baseUrl}/ivan.jpg`
   };
 }
