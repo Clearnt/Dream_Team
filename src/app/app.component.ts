@@ -17,7 +17,7 @@ import { TeamMember } from './teammember';
     <app-member [teamMember]="teamMemberIvan"></app-member>
     <app-member [teamMember]="teamMember"></app-member>
     <app-member [teamMember]="teamMemberDania"></app-member>
-    <app-member [teamMember]="teamMember"></app-member>
+    <app-member [teamMember]="teamMemberKsenia"></app-member>
   </section>
   `
 })
@@ -41,5 +41,11 @@ export class AppComponent {
     name: 'Жук Іван',
     position: 'Проджект менеджер',
     img: `${this.baseUrl}/ivan.jpg`
+  };
+
+  teamMemberKsenia: TeamMember = {
+    name: 'Вагурак Ксенія',
+    position: 'UI/UX дизайнер',
+    img: `${this.baseUrl}/ksenia.jpg`
   };
 }
