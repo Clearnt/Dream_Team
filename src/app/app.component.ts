@@ -15,7 +15,7 @@ import { TeamMember } from './teammember';
   </section>
   <section class="members">
     <app-member [teamMember]="teamMember"></app-member>
-    <app-member [teamMember]="teamMember"></app-member>
+    <app-member [obabilia]="obabilia"></app-member>
     <app-member [teamMember]="teamMember"></app-member>
     <app-member [teamMember]="teamMember"></app-member>
   </section>
@@ -29,5 +29,11 @@ export class AppComponent {
     name: 'Test name',
     position: 'Test position',
     img: `${this.baseUrl}/test.jpg`
+  };
+
+  obabilia: TeamMember = {
+    name: 'Oleksandr Babilli',
+    position: 'Junior',
+    img: `${this.baseUrl}/obabilia.png`
   };
 }
