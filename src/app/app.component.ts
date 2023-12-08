@@ -15,7 +15,7 @@ import { TeamMember } from './teammember';
   </section>
   <section class="members">
     <app-member [teamMember]="teamMemberIvan"></app-member>
-    <app-member [obabilia]="teamMemberObabilia"></app-member>
+    <app-member [teamMember]="teamMemberObabilia"></app-member>
     <app-member [teamMember]="teamMemberDania"></app-member>
     <app-member [teamMember]="teamMemberKsenia"></app-member>
   </section>
@@ -35,6 +35,7 @@ export class AppComponent {
     name: 'Олександр Бабіля',
     position: 'Бекенд розробник',
     img: `${this.baseUrl}/obabilia.png`
+  };
 
   teamMemberDania: TeamMember = {
     name: 'Василенко Даня',
