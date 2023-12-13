@@ -34,7 +34,7 @@ export class AppComponent {
   teamMemberObabilia: TeamMember = {
     name: 'Олександр Бабіля',
     position: 'Бекенд розробник',
-    img: `${this.baseUrl}/obabilia.png`
+    img: `${this.baseUrl}/oleksandr.jpg`
   };
 
   teamMemberDania: TeamMember = {
